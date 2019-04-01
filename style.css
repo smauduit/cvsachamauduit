@@ -2,32 +2,32 @@
 body{
   background: rgb(245,245,245);
   color: black;
-  font-size: 25px;
+  font-size: 15px;
   font-family: Helvetica;
 }
 h1{
   font-family: 'Open Sans', sans-serif;
-  color: black;
+  color: white;
   font-weight: lighter;
-  font-size: 60px;
+  font-size: 50px;
 }
 h2 {
   font-family: Times;
-  color: blue;
+  color: green;
   font-weight: bolder;
   font-size: 30px;
 }
 a {
-  color: blue;
+  color: white;
 }
 a:hover {
-  text-decoration: none;
-  color: purple;
+  text-decoration: underline;
+  color: white;
 }
 
 #banner{
   text-align: center;
-  background-image: url("https://unsplash.it/1000/600?random");
+  background-image: url("images/montagne.jpg");
   background-size: cover;
   background-position: center;
   padding: 150px 0;
@@ -43,20 +43,32 @@ a:hover {
   font-weight: lighter;
 }
 #footer{
-  padding: 30px;
+  padding: 5px;
   background-color: black;
   color: lightgrey;
 }
+
+.moncontainer {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+#card-white1 {
+  flex-grow: 2;
+}
+
 .card-white {
+  flex: 1;
   background-color: white;
   border-radius: 4px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(50,50,93,.11);
   padding: 16px;
-  margin: 16px 0px;
+  margin: 16px 10px;
 }
+
 .card-white img {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .btn-blue {
